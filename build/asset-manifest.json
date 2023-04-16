@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Korai/static/css/main.bff5f5a6.css",
+    "main.js": "/Korai/static/js/main.47618818.js",
+    "static/js/787.c93ae902.chunk.js": "/Korai/static/js/787.c93ae902.chunk.js",
+    "static/media/gebze harem.jpeg": "/Korai/static/media/gebze harem.c55a1f151429c04b8210.jpeg",
+    "index.html": "/Korai/index.html",
+    "main.bff5f5a6.css.map": "/Korai/static/css/main.bff5f5a6.css.map",
+    "main.47618818.js.map": "/Korai/static/js/main.47618818.js.map",
+    "787.c93ae902.chunk.js.map": "/Korai/static/js/787.c93ae902.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bff5f5a6.css",
+    "static/js/main.47618818.js"
+  ]
+}
