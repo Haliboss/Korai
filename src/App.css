@@ -38,7 +38,7 @@ span {
   padding: 2rem;
   border-radius: 2rem;
   height: 40%;
-  border: solid red 2px;
+  /* border: solid red 2px; */
 }
 
 .result {

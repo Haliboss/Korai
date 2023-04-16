@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const configuration = new Configuration({
-    apiKey: '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',
+    apiKey: "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",
   });
 
   const openai = new OpenAIApi(configuration);
@@ -34,7 +34,7 @@ function App() {
     <main className="App">
       <div className="chat">
         <div className="title">
-          <h1 className="korai">Selam ben <span>Korai</span></h1>
+          <h1 className="korai">Selam Mübarek! <br /> Ben <span>KorAi</span></h1>
           <h2 className="info">
             Hile-hurda hariç tüm sorularına cevap verebilirim...
           </h2>
