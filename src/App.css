@@ -1,0 +1,158 @@
+html {
+  background-color: slategray;
+  /* border: solid red 2px; */
+  /* width: 100%;
+  height: 100%; */
+  background: url("gebze\ harem.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  /* height: 25rem; */
+  padding: 1rem;
+}
+
+.title {
+  background-color: #3a7d90;
+  border-radius: 20px;
+  color: rgb(233, 233, 233);
+  font-size: small;
+}
+
+span {
+  color: rgb(247, 3, 3);
+  font-size: larger;
+}
+
+.chat {
+  margin: 0 auto;
+  width: 50%;
+  background-color: slategray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+  border-radius: 2rem;
+  height: 40%;
+  border: solid red 2px;
+}
+
+.result {
+  height: 30%;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  line-height: 35px;
+  margin: 10px;
+}
+
+.btn {
+  /* width: 100%; */
+  border: none;
+  background-color: rgb(18, 109, 109);
+  color: white;
+  border-radius: 10px;
+  padding: .7rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: teal;
+}
+
+.btn-disabled {
+  border: none;
+  background-color: rgb(18, 109, 109);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.textarea {
+  margin: auto 0;
+  /* width: 80%; */
+  height: 50%;
+  outline: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 25px;
+  color: blue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Masaüstü boyutu */
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Tablet boyutu */
+@media (max-width: 1660px) and (min-width: 768px) {
+  .title {
+    font-size: 15px;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+/* Mobil boyutu */
+@media (max-width: 767px) {
+  .title {
+    font-size: 12px;
+  }
+  html {
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .chat{
+    padding: 1.5rem;
+  }
+  .textarea {
+    font-size: 14px;
+  }
+}
